@@ -4,3 +4,9 @@ main: com.giovannibozzano.betonquestgui.BetonQuestGui
 api-version: 1.13
 depend:
   - BetonQuest
+
+commands:
+   bqgui:
+      description: Register or unregister from the BetonQuestGui features. 
+      usage: /<command> [register|unregister]
+      default: true
