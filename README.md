@@ -7,7 +7,7 @@ All credits for the original plugin go to [giovanni-bozzano](https://github.com/
 
 This Spigot plugin is designed to work with the BetonQuest plugin and the BetonQuest GUI client side Forge mod.
 
-**Minecraft version: >= 1.15.2**
+**Minecraft version: >= 1.19.4**
 
 ## Features
 #### Chat
