@@ -19,12 +19,16 @@ public class BQGuiCommand implements CommandExecutor {
             }
 
             switch (args[0]) {
-                case "register" : {
-                    BetonQuestGui.INSTANCE.players.add(sender.getName());
+                case "true" : {
+                    BetonQuestGui.INSTANCE.players.put(sender.getName(), true);
                     return true;
                 }
-                case "unregister" : {
-                    BetonQuestGui.INSTANCE.players.remove(sender.getName());
+                case "false" : {
+                    BetonQuestGui.INSTANCE.players.put(sender.getName(), false);
+                    return true;
+                }
+                case "login" : {
+                    BetonQuestGui.INSTANCE.players.putIfAbsent(sender.getName(), true); //login will be ran by the mod itself
                     return true;
                 }
                 default : return false;

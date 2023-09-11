@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import org.betonquest.betonquest.BetonQuest;
 
@@ -11,7 +12,7 @@ public final class BetonQuestGui extends JavaPlugin
 {
     public static BetonQuestGui INSTANCE;
     private BetonQuest betonQuest;
-    public ArrayList<String> players = new ArrayList<>();
+    public HashMap<String, Boolean> players = new HashMap<String, Boolean>();
 
     @Override
     public void onEnable()

@@ -30,7 +30,7 @@ public class GuiConversationIO implements Listener, ConversationIO
     {
         this.conversation = conversation;
         this.player = profile.getPlayer();
-        if (!BetonQuestGui.INSTANCE.players.contains(profile.getPlayer().getName())) { 
+        if (!BetonQuestGui.INSTANCE.players.getOrDefault(profile.getPlayer().getName(), false)) { 
             fallbackIO = true;
             final String rawConvIO = BetonQuest.getInstance().getPluginConfig().getString("default_conversation_IO", "menu,chest");
             String convIO = "";
