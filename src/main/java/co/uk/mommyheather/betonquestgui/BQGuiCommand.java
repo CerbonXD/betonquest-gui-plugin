@@ -1,6 +1,4 @@
-package com.giovannibozzano.betonquestgui;
-
-import java.util.List;
+package co.uk.mommyheather.betonquestgui;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -14,7 +12,7 @@ public class BQGuiCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player) {
             if (args.length != 1) {
-                sender.sendMessage("You must send one argument - register or unregister!");
+                sender.sendMessage("You must send one argument - true or false!");
                 return false;
             }
 

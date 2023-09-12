@@ -1,4 +1,4 @@
-package com.giovannibozzano.betonquestgui;
+package co.uk.mommyheather.betonquestgui;
 
 import org.betonquest.betonquest.BetonQuest;
 import org.betonquest.betonquest.api.profiles.OnlineProfile;

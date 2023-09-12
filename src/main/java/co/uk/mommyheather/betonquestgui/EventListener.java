@@ -1,6 +1,5 @@
-package com.giovannibozzano.betonquestgui;
+package co.uk.mommyheather.betonquestgui;
 
-import org.betonquest.betonquest.utils.PlayerConverter;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
