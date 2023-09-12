@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.giovannibozzano</groupId>
-    <artifactId>betonquestgui-plugin</artifactId>
-    <version>1.1.0-BQ2.0.0-547-DEV</version>
+    <groupId>co.uk.mommyheather</groupId>
+    <artifactId>betonquestgui-plugin-1.19.4</artifactId>
+    <version>1.1.0-BQ2.0.0-706-DEV</version>
     <packaging>jar</packaging>
 
     <name>BetonQuestGUI</name>
