@@ -44,8 +44,6 @@ public class GuiConversationIO implements Listener, ConversationIO
                 }
             }
 
-            System.out.println("PLAYER NOT REGISTERED! Falling back to other config...");
-
             final Class<? extends ConversationIO> convIOC = BetonQuest.getInstance().getConvIO(convIO);
             try {
                 io = convIOC.getConstructor(Conversation.class, OnlineProfile.class).newInstance(conversation, profile);
