@@ -12,7 +12,7 @@ public class BQGuiCommandCompleter implements TabCompleter {
     @Override
     public List<String> onTabComplete(CommandSender arg0, Command arg1, String arg2, String[] arg3) {
         if (arg3.length <= 1) {
-            return Arrays.asList(new String[]{"true", "false"});
+            return Arrays.asList("true", "false");
         }
         return null;
     }

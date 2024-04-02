@@ -139,7 +139,7 @@ public class GuiConversationIO implements Listener, ConversationIO
             {
                 public void run()
                 {
-                    GuiConversationIO.this.player.teleport(GuiConversationIO.this.conversation.getLocation());
+                    GuiConversationIO.this.player.teleport(GuiConversationIO.this.conversation.getCenter());
                     PacketHandler.sendPacketOpenGui(GuiConversationIO.this.player);
                 }
             }.runTask(BetonQuestGui.INSTANCE.getBetonQuest());
