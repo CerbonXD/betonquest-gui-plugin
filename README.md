@@ -1,6 +1,6 @@
 # BetonQuest GUI Plugin
 
-This is a commissioned port of [BetonQuest-gui-plugin](https://github.com/giovanni-bozzano/betonquest-gui-plugin) from 1.19.2 to 1.19.4.
+This is a commissioned port of [BetonQuest-gui-plugin](https://github.com/MommyHeather/betonquest-gui-plugin-1.19.4) from 1.19.4 to 1.20.4.
 
 All credits for the original plugin go to [giovanni-bozzano](https://github.com/giovanni-bozzano/).
 
@@ -11,7 +11,7 @@ All credits for the original plugin go to [giovanni-bozzano](https://github.com/
 
 This Spigot plugin is designed to work with the BetonQuest plugin and the BetonQuest GUI client side Forge mod.
 
-**Minecraft version: >= 1.19.4**
+**Minecraft version: >= 1.20.4**
 
 ## Features
 #### Chat
